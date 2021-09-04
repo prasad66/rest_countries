@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+    <style>
+      .breadcrumb-item + .breadcrumb-item::before {
+        content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPjxwYXRoIGQ9Ik0yLjUgMEwxIDEuNSAzLjUgNCAxIDYuNSAyLjUgOGw0LTQtNC00eiIgZmlsbD0iY3VycmVudENvbG9yIi8+PC9zdmc+);
+      }
+    </style>
+
+    <script
+      src="https://kit.fontawesome.com/331797fb3b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+          <a href="/" class="navbar-brand">
+            <i class="fab fa-accusoft pr-1"></i>Details Sanctum
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#myNavBar"
+            aria-controls="myNavBar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="myNavBar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="/index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="/about.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="/courses.html" class="nav-link">Courses</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Help
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Facebook</a>
+                  <a class="dropdown-item" href="#">YouTube</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Github</a>
+                </div>
+              </li>
+              <li class="nav-item active">
+                <a href="/blog.html" class="nav-link">Details</a>
+              </li>
+              <li class="nav-item">
+                <a href="/contact.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="jumbotron">
+      <div class="container">
+        <div class="ml-3">
+          <h1 class="font-italic">
+            <i class="fab fa-accusoft pr-1"></i>Details Sanctum!!!
+          </h1>
+        </div>
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="/">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="/pages">Details</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Countries
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    
+    <div class="container my-5">
+      <!-- Card Deck  -->
+
+      <div class="card-deck">
+        <!-- Card 1 -->
+        <div class="card mb-4">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/7/7b/India_flag_300.png"
+            alt="Indian Flag"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <h5 class="card-title">India</h5>
+            <p class="card-text">
+              <strong>Population: </strong>1295210000 <br />
+              <strong>Region: </strong>Asia <br />
+              <strong>Capital: </strong>Delhi
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card mb-4">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/640px-Flag_of_the_United_States.svg.png"
+            alt="USA Flag"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <h5 class="card-title">United States of America</h5>
+            <p class="card-text">
+              <strong>Population: </strong>323947000 <br />
+              <strong>Region: </strong>Americas <br />
+              <strong>Capital: </strong>Washington, D.C
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card mb-4">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/01/Brazil_flag_300.png"
+            alt="Brazil Flag"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Brazil</h5>
+            <p class="card-text">
+              <strong>Population: </strong>206135893 <br />
+              <strong>Region: </strong>Americas <br />
+              <strong>Capital: </strong>Brasilia
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card mb-4">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/640px-Flag_of_Iceland.svg.png"
+            alt="Iceland Flag"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Iceland</h5>
+            <p class="card-text">
+              <strong>Population: </strong>334300 <br />
+              <strong>Region: </strong>Europe <br />
+              <strong>Capital: </strong>Reykjavík
+            </p>
+          </div>
+        </div>
+
+        <!-- End of cards -->
+      </div>
+    </div>
+  </body>
+</html>
